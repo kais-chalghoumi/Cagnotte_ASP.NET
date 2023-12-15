@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Examen.ApplicationCore.Interfaces
+namespace CA.ApplicationCore.Interfaces
 {
     public interface IUnitOfWork : IDisposable
     {

@@ -1,11 +1,11 @@
-﻿using Domain;
+﻿using CA.ApplicationCore.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Data.Configurations
+namespace CA.Infrastructure.Configurations
 {
     public class ParticipationConfiguration : IEntityTypeConfiguration<Participation>
     {
@@ -13,7 +13,6 @@ namespace Data.Configurations
         {
             builder.HasKey(f => new
             {
-
                 f.CagnotteFk,
                 f.ParticipantFk
             });

@@ -1,7 +1,7 @@
 ﻿using System.Linq.Expressions;
 
-namespace Examen.ApplicationCore.Interfaces
-{ 
+namespace CA.ApplicationCore.Interfaces
+{
     public interface IGenericRepository<TEntity> where TEntity : class
     {
         void Add(TEntity entity);
@@ -11,6 +11,6 @@ namespace Examen.ApplicationCore.Interfaces
         TEntity GetById(params object[] keyValues);
         TEntity Get(Expression<Func<TEntity, bool>> where);
         IEnumerable<TEntity> GetAll(); // GetMany()
-        IEnumerable<TEntity> GetMany(Expression<Func<TEntity, bool>> where );
-    }    
+        IEnumerable<TEntity> GetMany(Expression<Func<TEntity, bool>> where);
+    }
 }

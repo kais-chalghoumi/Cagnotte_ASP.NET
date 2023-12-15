@@ -1,4 +1,4 @@
-namespace Examen.UI.Web.Models
+namespace CA.UI.Web.Models
 {
     public class ErrorViewModel
     {

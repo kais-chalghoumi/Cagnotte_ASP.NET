@@ -1,4 +1,4 @@
-﻿using Examen.ApplicationCore.Interfaces;
+﻿using CA.ApplicationCore.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Examen.UI.Web.Controllers
+namespace CA.UI.Web.Controllers
 {
     public class EntrepriseController : Controller
     {

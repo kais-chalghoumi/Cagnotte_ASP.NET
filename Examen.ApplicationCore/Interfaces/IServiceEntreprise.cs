@@ -1,12 +1,12 @@
-﻿using Examen.ApplicationCore.Domain;
+﻿using CA.ApplicationCore.Domain;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Examen.ApplicationCore.Interfaces
+namespace CA.ApplicationCore.Interfaces
 {
-  public  interface IServiceEntreprise : IService<Entreprise>
+    public interface IServiceEntreprise : IService<Entreprise>
     {
-        Entreprise PlusParticipants();
+
     }
 }

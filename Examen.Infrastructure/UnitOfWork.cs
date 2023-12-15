@@ -1,4 +1,4 @@
-﻿using Examen.ApplicationCore.Interfaces;
+﻿using CA.ApplicationCore.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Examen.Infrastructure
+namespace CA.Infrastructure
 {
     public class UnitOfWork : IUnitOfWork
     {

@@ -1,4 +1,4 @@
-﻿using Examen.ApplicationCore.Interfaces;
+﻿using CA.ApplicationCore.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Examen.ApplicationCore.Services
+namespace CA.ApplicationCore.Services
 {
     public class Service<TEntity> : IService<TEntity> where TEntity : class
     {
@@ -38,19 +38,19 @@ namespace Examen.ApplicationCore.Services
         {
             return _repository.GetById(id);
         }
-        
+
         public virtual IEnumerable<TEntity> GetAll()
         {
             return _repository.GetAll();
         }
-        public virtual IEnumerable<TEntity> GetMany(Expression<Func<TEntity, bool>> filter )
+        public virtual IEnumerable<TEntity> GetMany(Expression<Func<TEntity, bool>> filter)
         {
             return _repository.GetMany(filter);
         }
-        
+
         public virtual TEntity Get(Expression<Func<TEntity, bool>> where)
         {
-             return _repository.Get(where);          
+            return _repository.Get(where);
         }
 
         public void Commit()

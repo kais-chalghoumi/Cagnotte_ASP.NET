@@ -1,59 +1,35 @@
-﻿using Examen.ApplicationCore.Domain;
-using Examen.ApplicationCore.Interfaces;
+﻿using CA.ApplicationCore.Domain;
+using CA.ApplicationCore.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Examen.ApplicationCore.Services
+namespace CA.ApplicationCore.Services
 {
     public class ServiceCagnotte : Service<Cagnotte>, IServiceCagnotte
     {
         public ServiceCagnotte(IUnitOfWork utwk) : base(utwk)
-        {
+        { }
 
-        }
-
-
-        //Service1
         public IEnumerable<Cagnotte> Encours()
         {
             return GetAll().Where(c => c.DateLimite.CompareTo(DateTime.Now) > 0);
         }
-        //Service2
-        public int Montant(int id)
-        {
-            IUnitOfWork utwk = new UnitOfWork(factory);
-            var req = utwk.Repository<Participation>().GetAll().Where(p => p.CagnotteFk == id);
-            int m = 0;
-            foreach (var item in req)
-            {
-                m = m + item.Montant;
-            }
 
-            return m;
-        }
-        //Service3
-        public int NbrCagnottes(int id)
-        {
-            IUnitOfWork utwk = new UnitOfWork(factory);
-            return utwk.getRepository<Participant>().GetMany().Where(p => p.ParticipantId == id).Select(p => p.Participations).Count();
-        }
-
-        //Service4
         public IEnumerable<Entreprise> Top2Entreprise(string Type)
         {
-            IUnitOfWork utwk = new UnitOfWork(factory);
-            var linq = (from i in utwk.getRepository<Entreprise>().GetMany()
-                        join j in GetAll() on i.EntrepriseId equals j.Entreprise.EntrepriseId
-                        where j.Type.ToString() == Type
-                        orderby i.Cagnottes.Count()
-                        select i).Take(2);
-            return linq;
-
-
+            var linq = (from c in GetMany(c => c.Type.ToString() == Type)
+                        orderby c.EntrepriseId
+                        select c.EntrepriseId).Take(2);
+            return (IEnumerable<Entreprise>)linq;
         }
 
+        public Entreprise PlusParticipants()
+        {
+            var x = GetAll().OrderBy((e => e.Participantions.Count())).First();
 
+            return x.Entreprise;
+        }
     }
 }

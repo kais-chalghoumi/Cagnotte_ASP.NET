@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chalg\\OneDrive\\Bureau\\Examen - Squelette\\Examen.Infrastructure\\Examen.Infrastructure.csproj": {}
+    "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\Cagnotte_ASP.NET\\Examen.Infrastructure\\Examen.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chalg\\OneDrive\\Bureau\\Examen - Squelette\\Examen.ApplicationCore\\Examen.ApplicationCore.csproj": {
+    "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\Cagnotte_ASP.NET\\Examen.ApplicationCore\\Cagnotte.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chalg\\OneDrive\\Bureau\\Examen - Squelette\\Examen.ApplicationCore\\Examen.ApplicationCore.csproj",
-        "projectName": "Examen.ApplicationCore",
-        "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\Examen - Squelette\\Examen.ApplicationCore\\Examen.ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\Cagnotte_ASP.NET\\Examen.ApplicationCore\\Cagnotte.ApplicationCore.csproj",
+        "projectName": "Cagnotte.ApplicationCore",
+        "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\Cagnotte_ASP.NET\\Examen.ApplicationCore\\Cagnotte.ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\chalg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\Examen - Squelette\\Examen.ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\Cagnotte_ASP.NET\\Examen.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chalg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\chalg\\OneDrive\\Bureau\\Examen - Squelette\\Examen.Infrastructure\\Examen.Infrastructure.csproj": {
+    "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\Cagnotte_ASP.NET\\Examen.Infrastructure\\Examen.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chalg\\OneDrive\\Bureau\\Examen - Squelette\\Examen.Infrastructure\\Examen.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\Cagnotte_ASP.NET\\Examen.Infrastructure\\Examen.Infrastructure.csproj",
         "projectName": "Examen.Infrastructure",
-        "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\Examen - Squelette\\Examen.Infrastructure\\Examen.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\Cagnotte_ASP.NET\\Examen.Infrastructure\\Examen.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\chalg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\Examen - Squelette\\Examen.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\Cagnotte_ASP.NET\\Examen.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chalg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\chalg\\OneDrive\\Bureau\\Examen - Squelette\\Examen.ApplicationCore\\Examen.ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\Examen - Squelette\\Examen.ApplicationCore\\Examen.ApplicationCore.csproj"
+              "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\Cagnotte_ASP.NET\\Examen.ApplicationCore\\Cagnotte.ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\Cagnotte_ASP.NET\\Examen.ApplicationCore\\Cagnotte.ApplicationCore.csproj"
               }
             }
           }

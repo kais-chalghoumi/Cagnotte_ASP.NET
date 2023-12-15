@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "41rZDUFzYQVkSow73jy0lAeA9NCAWrTzi3t4+98VTBJTAFcc/EouXPKAsvwVhFnfXFu07H/taVUV69zAHVRAKw==",
+  "dgSpecHash": "kN3lMpJhaFSQ8dM/jMuxhSAi/c4N8Fe+D91J/wVCtOJW/tgLaNf4/v76g0xK5QF/RV6SdjfwBhhLgo4qpCDOiQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chalg\\OneDrive\\Bureau\\Examen - Squelette\\Examen.ApplicationCore\\Examen.ApplicationCore.csproj",
+  "projectFilePath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\Cagnotte_ASP.NET\\Examen.ApplicationCore\\CA.ApplicationCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chalg\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512"
   ],

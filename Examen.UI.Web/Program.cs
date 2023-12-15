@@ -1,6 +1,6 @@
-using Examen.ApplicationCore.Interfaces;
-using Examen.ApplicationCore.Services;
-using Examen.Infrastructure;
+using CA.ApplicationCore.Interfaces;
+using CA.ApplicationCore.Services;
+using CA.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 // Injection de dépendance
-builder.Services.AddDbContext<DbContext, ExamenContext>();
+builder.Services.AddDbContext<DbContext, CagnotteContext>();
 builder.Services.AddScoped<IServiceCagnotte, ServiceCagnotte>();
 builder.Services.AddScoped<IServiceEntreprise, ServiceEntreprise>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();

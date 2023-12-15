@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ICYH8vi6vIsGNsqriWHHg7L4C472kr6lJbGDTJcJatO/nksf7m0CpyksYH8kwRNpYwdbdWpDbuHJJivv0y23fQ==",
+  "dgSpecHash": "82OZ9hxLHZ5l1Ls84++1iqRyOJwKilZg0YrflnUcMh6iRZhjuhPWdtpwy0qyYm5QcpEns5wIL8sSRf5Dkw2OJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chalg\\OneDrive\\Bureau\\Examen - Squelette\\Examen.Infrastructure\\Examen.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\Cagnotte_ASP.NET\\Examen.Infrastructure\\CA.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chalg\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\chalg\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -1,9 +1,9 @@
-﻿using Examen.ApplicationCore.Interfaces;
+﻿using CA.ApplicationCore.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Examen.Infrastructure
+namespace CA.Infrastructure
 {
     public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
     {

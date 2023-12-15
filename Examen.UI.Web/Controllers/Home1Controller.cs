@@ -1,8 +1,8 @@
-﻿using Examen.UI.Web.Models;
+﻿using CA.UI.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace Examen.UI.Web.Controllers
+namespace CA.UI.Web.Controllers
 {
     public class Home1Controller : Controller
     {

@@ -212,7 +212,7 @@
           "Mono.TextTemplating": "2.2.1"
         },
         "compile": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -1215,17 +1215,17 @@
           }
         }
       },
-      "Examen.ApplicationCore/1.0.0": {
+      "CA.ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "7.0.3"
         },
         "compile": {
-          "bin/placeholder/Examen.ApplicationCore.dll": {}
+          "bin/placeholder/CA.ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Examen.ApplicationCore.dll": {}
+          "bin/placeholder/CA.ApplicationCore.dll": {}
         }
       }
     }
@@ -3633,16 +3633,17 @@
         "version.txt"
       ]
     },
-    "Examen.ApplicationCore/1.0.0": {
+    "CA.ApplicationCore/1.0.0": {
       "type": "project",
-      "path": "../Examen.ApplicationCore/Examen.ApplicationCore.csproj",
-      "msbuildProject": "../Examen.ApplicationCore/Examen.ApplicationCore.csproj"
+      "path": "../Examen.ApplicationCore/CA.ApplicationCore.csproj",
+      "msbuildProject": "../Examen.ApplicationCore/CA.ApplicationCore.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Examen.ApplicationCore >= 1.0.0",
+      "CA.ApplicationCore >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.3",
+      "Microsoft.EntityFrameworkCore.Design >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Proxies >= 7.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.3"
@@ -3654,11 +3655,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chalg\\OneDrive\\Bureau\\Examen - Squelette\\Examen.Infrastructure\\Examen.Infrastructure.csproj",
-      "projectName": "Examen.Infrastructure",
-      "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\Examen - Squelette\\Examen.Infrastructure\\Examen.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\Cagnotte_ASP.NET\\Examen.Infrastructure\\CA.Infrastructure.csproj",
+      "projectName": "CA.Infrastructure",
+      "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\Cagnotte_ASP.NET\\Examen.Infrastructure\\CA.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\chalg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\Examen - Squelette\\Examen.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\Cagnotte_ASP.NET\\Examen.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chalg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3675,8 +3676,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\chalg\\OneDrive\\Bureau\\Examen - Squelette\\Examen.ApplicationCore\\Examen.ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\Examen - Squelette\\Examen.ApplicationCore\\Examen.ApplicationCore.csproj"
+            "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\Cagnotte_ASP.NET\\Examen.ApplicationCore\\CA.ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\chalg\\OneDrive\\Bureau\\.NET\\Cagnotte_ASP.NET\\Examen.ApplicationCore\\CA.ApplicationCore.csproj"
             }
           }
         }
@@ -3692,6 +3693,12 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.3, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.3, )"
           },
